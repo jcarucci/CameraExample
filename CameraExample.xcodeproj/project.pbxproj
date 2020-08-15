@@ -13,6 +13,7 @@
 		96FD883724E860C100D6F3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FD883524E860C100D6F3FB /* Main.storyboard */; };
 		96FD883924E860C200D6F3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FD883824E860C200D6F3FB /* Assets.xcassets */; };
 		96FD883C24E860C200D6F3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FD883A24E860C200D6F3FB /* LaunchScreen.storyboard */; };
+		96FD884424E8699500D6F3FB /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 96FD884324E8699500D6F3FB /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		96FD883824E860C200D6F3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96FD883B24E860C200D6F3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96FD883D24E860C200D6F3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FD884324E8699500D6F3FB /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		96FD882E24E860C100D6F3FB /* CameraExample */ = {
 			isa = PBXGroup;
 			children = (
+				96FD884324E8699500D6F3FB /* SqueezeNet.mlmodel */,
 				96FD882F24E860C100D6F3FB /* AppDelegate.swift */,
 				96FD883124E860C100D6F3FB /* SceneDelegate.swift */,
 				96FD883324E860C100D6F3FB /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				96FD883424E860C100D6F3FB /* ViewController.swift in Sources */,
 				96FD883024E860C100D6F3FB /* AppDelegate.swift in Sources */,
 				96FD883224E860C100D6F3FB /* SceneDelegate.swift in Sources */,
+				96FD884424E8699500D6F3FB /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
